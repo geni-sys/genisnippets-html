@@ -1,1 +1,24 @@
-{}
+{
+  "GeniSippets Starter Template": {
+    "prefix": "!gh",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "$0",
+      "<head>",
+      "<meta charset=\"UTF-8\">",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "<link rel=\"stylesheet\" href=\"./css/styles.css\">",
+      "<title>${1:Title}</title>",
+      "</head>",
+      "$0",
+      "<body>",
+      "<div id=\"App\"></div>",
+      "<script src=\". / src / index.js \"></script>",
+      "</body>",
+      "$0",
+      "</html>"
+    ],
+    "description": "Create a stantard html used in Genesis",
+  }
+}

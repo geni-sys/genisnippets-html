@@ -1,20 +1,33 @@
 {
-    "name": "genisnippets",
-    "displayName": "GeniSnippets",
-    "description": "Simple snippets used in Genesys lab",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.45.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "genisnippets",
+  "displayName": "GeniSnippets",
+  "description": "Simple snippets used in Genesys lab",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geni-sys/genisnippets-html.git"
+  },
+  "icon": "iconic.jpg",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
 }
